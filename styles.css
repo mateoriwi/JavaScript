@@ -1,0 +1,18 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Separa los enlaces entre sí */
+    background-color: #34495e;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    color: #f39c12; /* Color llamativo al pasar el mouse */
+}
