@@ -102,6 +102,34 @@ input {
     gap: 20px;
 }
 
+.gatitos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+
+.csstarjeta {
+    background: #1f2937;    /* color de fondo */
+    padding: 20px;          /* espacio interno */
+    border-radius: 10px;    /* bordes redondeados */
+    transition: transform 0.3s; /* animación suave */
+}
+
+.csstarjeta:hover {
+    transform: scale(1.02); /* crece un poco al pasar el mouse */
+}
+
 button {
     padding: 10px 15px;
     background: #3b82f6;
