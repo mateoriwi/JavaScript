@@ -1,0 +1,16 @@
+[
+    {
+        "student_ID": "1010",
+        "student_NAME": "mateo",
+        "student_AGE": "18",
+        "student_CAREER": "Foreign_Trade_Operations",
+        "student_status": true
+    },
+    {
+        "student_ID": "1067",
+        "student_NAME": "Lol",
+        "student_AGE": "28",
+        "student_CAREER": "Tourism_and_Hotel_Management",
+        "student_STATUS": true
+    }
+]

@@ -83,6 +83,30 @@ a:hover {
     text-decoration: underline;
 }
 
+#resultado {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+#resultado.mostrar {
+    opacity: 1;
+    visibility: visible;
+}
+
+#resultado.error {
+    background-color: #dc2626;
+    color: white;
+}
+
+#resultado.exito {
+    background-color: #16a34a;
+    color: white;
+}
 
 form {
     margin-top: 10px;
