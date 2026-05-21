@@ -10,16 +10,16 @@ edad = Number(edad);
 // Con este if nos tratamos de asegurar de que el usuario ingrese correctamente un número con el "isNaN"
 // Traducido significa, si (if) edad no es un número (isNaN) imprime con un error: "Eso no es un número!"
 if (isNaN(edad) || edad <= 0) { // Tan dificil es mirar los números de tu teclado???
-    alert('Error: Eso no es un número!')
+    console.error("Error: Por favor, ingresa una edad válida en números.")
     // En caso de que si pongamos un número correctamente, irá hacia este else de aquí
 } else {
     // Y aquí si podremos validar correctamente la edad
     // Si eres mayor de 18 años imprimir:
     if (edad >= 18) {  // Si te puedes registrar!!!
-        alert('Puedes registrarte, eres mayor de 18 años')
+        alert(`Hola ${nombre}, eres mayor de edad. ¡Prepárate para grandes oportunidades en el mundo de la programación!`)
         // Y este else se activa en caso de un número menor de 18 imprimirá que el registro no se puede hacer
     } else { // No puedes registrarte!!! vete de aquí!!!
-        alert('No puedes registrarte, debes ser mayor de 18 años')
+        alert(`Hola ${nombre}, eres menor de edad. ¡Sigue aprendiendo y disfrutando del código!`)
     }
 }
 
