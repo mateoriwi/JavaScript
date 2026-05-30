@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Historia de Usuario 4 - Gestión de Productos</title>
+</head>
+<body>
+
+    <!-- ======================================================
+         TÍTULO E INSTRUCCIÓN PRINCIPAL
+    ====================================================== -->
+    <h1>Gestión de Productos</h1>
+
+    <p>
+        Aplicación web para agregar, editar, eliminar, guardar productos
+        en Local Storage y sincronizarlos con una API usando Fetch.
+    </p>
+
+    <!-- Mensaje dinámico de éxito o error -->
+    <p id="mensaje"></p>
+
+
+    <!-- ======================================================
+         FORMULARIO PARA AGREGAR PRODUCTOS
+    ====================================================== -->
+    <form id="formProducto">
+
+        <input 
+            type="text" 
+            id="inputNombre" 
+            placeholder="Nombre del producto"
+        >
+
+        <input 
+            type="number" 
+            id="inputPrecio" 
+            placeholder="Precio del producto"
+        >
+
+        <input 
+            type="text" 
+            id="inputCategoria" 
+            placeholder="Categoría del producto"
+        >
+
+        <button type="submit">Agregar producto</button>
+    </form>
+
+
+    <!-- ======================================================
+         BOTONES DE ACCIONES CON API
+    ====================================================== -->
+    <button id="btnObtenerApi">Obtener productos de la API</button>
+
+    <button id="btnSincronizarApi">Sincronizar productos locales con API</button>
+
+
+    <!-- ======================================================
+         INFORMACIÓN EXTRA DE ESTRUCTURAS DE DATOS
+    ====================================================== -->
+    <h2>Resumen de productos</h2>
+
+    <p id="resumenProductos">No hay productos registrados.</p>
+
+
+    <!-- ======================================================
+         LISTA DONDE SE RENDERIZAN LOS PRODUCTOS
+    ====================================================== -->
+    <h2>Lista de productos</h2>
+
+    <ul id="listaProductos"></ul>
+
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
